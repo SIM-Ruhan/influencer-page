@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+/* Shared styles */
+.gap-16{
+    margin-bottom: 16px;
+}
+.gap-06{
+    margin-bottom: 6px;
+}
+nav{
+    margin: 50px 120px 50px 120px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#menu-list{
+    display: flex;
+}
+li{
+    margin-right: 30px;
+}
+
+/* Banner styles */
+
+.banner-container{
+    display: flex;
+   gap: 130px;
+   margin: 0 120px 100px 120px;
+}
+.banner-title{
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 70px;
+}
+.banner-p{
+    color: #3a3a3a;
+    font-weight: 600;
+}
+.btn{
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    padding: 10px 24px;
+}
+.bg-img{
+    width: 475px;
+    height: 475px;
+}
+.main-img{
+    width: 440px;
+    height: 414px;
+    margin-top: -445px;
+}
+
+/* Sponsor styles */
+hr{
+    border: none;
+    height: 1px;
+     background: linear-gradient(
+        to right,transparent, #ccc,transparent
+    ); 
+}
+.sponsor-container{
+    margin: 0 120px 0 120px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 30px;
+}
+
+/* Popular Items */
+.popular{
+    margin: 100px 120px 100px 120px;
+}
+.card-container{
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+#Title{
+    font-size: 1.75rem;
+    line-height: 70px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#star{
+    display: flex;
+}
+#rating{
+    font-size: 0.75rem;
+   font-weight: 600;
+   color: #5E6366;
+   opacity: 80%;
+}
+.card{
+      padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 0 #00000015;
+}
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+.card-info{
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    color: #787885;
+}
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
+.see-more{
+    color: #E02C6D;
+margin-top: 50px;
+text-align: end;
+font-weight: 600;
+}
+/* Featured Products */
+
+.products{
+
+    display: flex;
+   gap:96px;
+    align-items: center;
+    margin: 0 120px 100px 120px;
+}
+/* .product-img{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+} */
+
+.product-title{
+    font-size: 2.375rem;
+    font-weight: bold;
+    line-height: 60px;
+}
+.product-info{
+    line-height: 28px;
+    font-weight: bold;
+    color: #6c6c6c;
+}
+.button{
+    padding: 10px 24px;
+    color: white;
+    background-color: #E02C6D;
+
+}
+
+/* Footer styles */
+
+.bottom{
+    margin: 0;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+}
+.footer-title{
+font-size: 1.5rem;
+font-weight: bold;
+}
+.copyright{
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 24px;
+}
+#icons{
+    margin-top: 17px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
